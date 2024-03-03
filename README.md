@@ -1,3 +1,11 @@
+# Next Auth Tutorial
+Created: 2024-03-02
+Updated: 2024-03-02
+
+Stopped at 15:35mins.
+This project is created and developed following the turoial [course offered by freeCodeCamp](https://www.freecodecamp.org/news/secure-next-js-applications-with-role-based-authentication-using-nextauth), to learn more about OAuth authentication and NextJS.
+
+# Next Auth Generated Setup Info:
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
