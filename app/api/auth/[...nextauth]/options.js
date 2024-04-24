@@ -8,7 +8,7 @@ export const options = {
                 console.log("Profile GitHub: ", profile)
 
                 let userRole = "GitHub User"
-                if(profile?.email == "joel.kuruvilla@dal.ca"){
+                if(profile?.email == "joel.kuruvilla@dal.ca" || profile?.email == "jl567056@dal.ca"){
                     userRole = "admin"
                 }
 
@@ -24,6 +24,7 @@ export const options = {
             profile(profile) {
                 console.log("Profile Google: ", profile)
 
+                let userRole = "Google User";
                 return {
                     ...profile,
                     id: profile.sub,

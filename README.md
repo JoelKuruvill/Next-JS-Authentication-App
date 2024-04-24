@@ -2,10 +2,13 @@
 Created: 2024-03-02
 Updated: 2024-04-24
 
-Stopped at 0:46mins:23sec.
+Stopped at 0:54mins:57sec.
 This project is created and developed following the turoial [course offered by freeCodeCamp](https://www.freecodecamp.org/news/secure-next-js-applications-with-role-based-authentication-using-nextauth), to learn more about OAuth authentication and NextJS.
 
 NextAuth Documentations:
+Client Member page = Client-side authentication
+Member page = Server-side authentication
+Middleware.. allows for role-based authentication!
 
 
 [BELOW IS GENERATED README retained for personal learning reference]
