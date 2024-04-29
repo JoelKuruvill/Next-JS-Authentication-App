@@ -6,7 +6,7 @@ import React, {useState} from "react";
 const UserForm = () => {
     const router = useRouter();
     const [formData, setFormData] = useState({})
-    const [errorMessage, setErrorMessage] = useState({})
+    const [errorMessage, setErrorMessage] = useState("");
 
     const handleChange = (e) => {
         const value = e.target.value;
@@ -47,7 +47,7 @@ const UserForm = () => {
             <input id="password" name="password" type="password" onChange={handleChange} required={true} value={formData.password} className="m-2 bg-slate-400 rounded"></input>
             <input type="submit" value="Create User" className="bg-blue-300 hover:bg-blue-100" />
             </form>
-            <p className="text-red-500">{error.Message}</p>
+            <p className="text-red-500">{errorMessage}</p>
         </>
         
     );

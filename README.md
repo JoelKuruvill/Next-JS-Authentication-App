@@ -1,18 +1,24 @@
-# Next Auth Tutorial
+# Next JS Authentication Application
 Created: 2024-03-02
-Updated: 2024-04-24
+Updated: 2024-04-30
 
-Stopped at 1hr10mins:33sec.
+Stopped at 1hr18mins:53sec.
 This project is created and developed following the turoial [course offered by freeCodeCamp](https://www.freecodecamp.org/news/secure-next-js-applications-with-role-based-authentication-using-nextauth), to learn more about OAuth authentication and NextJS.
 
-## NextAuth Documentations:
+
+
+## NextAuth Tutorial Notes:
 ### Authentication Approaches in this project: 
-Client-side authentication | Client Member page
-Server-side authentication | Member page
-Role-based authentication! | Acomplished with middleware.
+- Client-side authentication | Client Member page
+- Server-side authentication | Member page
+- Role-based authentication! | Acomplished with middleware.
+
+The 'openssl rand -base64 32' creates a randomized string.
 
 
 [BELOW IS GENERATED README retained for personal learning reference]
+
+
 # Next Auth Generated Setup Info:
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
