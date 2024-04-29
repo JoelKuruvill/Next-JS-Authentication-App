@@ -1,11 +1,11 @@
-import User from "@/app/(components)/(models)/User";
+import User from "@/app/(models)/User";
 import { NextResponse } from "next/server";
 import bcrypt from "bcrypt";
 
 export async function POST(req) {
     try {
         const body = await req.json();
-        const userData = body.formData
+        const userData = body.formData;
 
         //Confirm data exists
         if(!userData?.email || !userData.password) {
