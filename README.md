@@ -2,10 +2,9 @@
 Created: 2024-03-02
 Updated: 2024-04-30
 
-Stopped at 1hr18mins:53sec.
 This project is created and developed following the turoial [course offered by freeCodeCamp](https://www.freecodecamp.org/news/secure-next-js-applications-with-role-based-authentication-using-nextauth), to learn more about OAuth authentication and NextJS.
 
-
+This project is currently not hosted and is intended only to run on localhost at this time.
 
 ## NextAuth Tutorial Notes:
 ### Authentication Approaches in this project: 
@@ -13,7 +12,8 @@ This project is created and developed following the turoial [course offered by f
 - Server-side authentication | Member page
 - Role-based authentication! | Acomplished with middleware.
 
-The 'openssl rand -base64 32' creates a randomized string.
+### Misc. Notes:
+- The 'openssl rand -base64 32' creates a randomized string.
 
 
 [BELOW IS GENERATED README retained for personal learning reference]
